@@ -5,4 +5,4 @@ function boolToStr(bool){
 let str1 = boolToStr(false);
 let str2 = boolToStr(true);
 
-console.log(str1 , str2);
+console.log(`ex1.1 : str1 = ${str1}, str2 = ${str2}`);
