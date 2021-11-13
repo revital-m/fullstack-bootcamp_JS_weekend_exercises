@@ -1,6 +1,4 @@
-function boolToStr(bool){
-    return bool === true ? "Yes":"No";
-}
+let boolToStr = (bool) => (bool === true ? "Yes":"No");
 
 let str1 = boolToStr(false);
 let str2 = boolToStr(true);
