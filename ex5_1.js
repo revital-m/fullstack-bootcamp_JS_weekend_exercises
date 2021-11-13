@@ -1,6 +1,4 @@
-function trimmingString(str){
-    return str.substring(1,str.length -1);
-}
+let trimmingString = (str) => (str.substring(1,str.length -1));
 
 let resTrimmingString1 = trimmingString('my string');
 let resTrimmingString2 = trimmingString('also my string');
