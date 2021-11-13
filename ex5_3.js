@@ -15,4 +15,4 @@ function toCamelCase(str){
 let resCamelCase1 = toCamelCase("the-stealth-warrior");
 let resCamelCase2 = toCamelCase("The_Stealth_Warrior");
 
-console.log(`ex5.2 : resCamelCase1 = ${resCamelCase1}, resCamelCase2 = ${resCamelCase2}`);
+console.log(`ex5.3 : resCamelCase1 = ${resCamelCase1}, resCamelCase2 = ${resCamelCase2}`);
