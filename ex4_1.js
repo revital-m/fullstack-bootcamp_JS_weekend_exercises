@@ -1,12 +1,15 @@
 function fibonacci(n){
-    let arrFibonacci = [1,1]
+    let arrFibonacci = [];
+    if (n > 0) {
+        arrFibonacci = [1,1];
+    }
     for (let i = 2; i < n; i++) {
         arrFibonacci.push(arrFibonacci[arrFibonacci.length-2]+arrFibonacci[arrFibonacci.length-1]);
     }
     return arrFibonacci;
 }
 
-let resFibonacci1 = fibonacci(9);
+let resFibonacci1 = fibonacci(0);
 let resFibonacci2 = fibonacci(10);
 let resFibonacci3 = fibonacci(11);
 let resFibonacci4 = fibonacci(12);
