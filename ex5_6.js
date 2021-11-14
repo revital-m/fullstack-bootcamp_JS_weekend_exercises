@@ -1,4 +1,4 @@
-let maskify = (str) => ((str.length < 4) ? str : '#'.repeat(str.length-4) + str.slice(-4));
+const maskify = (str) => ((str.length < 4) ? str : '#'.repeat(str.length-4) + str.slice(-4));
 
 let resMaskify1 = maskify("4556364607935616");
 let resMaskify2 = maskify("64607935616");

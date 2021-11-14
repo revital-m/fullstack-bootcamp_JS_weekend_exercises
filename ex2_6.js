@@ -1,4 +1,4 @@
-let centuryFromYear = (year) => ((Math.floor(year/100)  !== year/100) ? (Math.floor(year/100) + 1) : (year/100));
+const centuryFromYear = (year) => ((Math.floor(year/100)  !== year/100) ? (Math.floor(year/100) + 1) : (year/100));
 
 let resCentury1 = centuryFromYear(1705);
 let resCentury2 = centuryFromYear(1900);

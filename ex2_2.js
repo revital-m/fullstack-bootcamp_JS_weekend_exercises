@@ -1,4 +1,4 @@
-let binaryToBaseTen = (arr) => (num = parseInt(arr.join(''),2));
+const binaryToBaseTen = (arr) => (num = parseInt(arr.join(''),2));
 
 let test1 = [0, 0, 0, 1];
 let test2 = [0, 0, 1, 0];

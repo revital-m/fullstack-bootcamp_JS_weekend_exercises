@@ -1,4 +1,4 @@
-let repeatStr = (count, str) => (str.repeat(count));
+const repeatStr = (count, str) => (str.repeat(count));
 
 let resRepeatStr1 = repeatStr(6, "I");
 let resRepeatStr2 = repeatStr(5, "Hello");
